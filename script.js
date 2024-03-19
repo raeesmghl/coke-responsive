@@ -9,7 +9,6 @@ menu.addEventListener('click',()=>{
 })
 
 let closenav = document.querySelector('#nav-left>i.close');
-console.log(closenav)
 
 closenav.addEventListener('click',()=>{
     navLeft.style.scale='0';
